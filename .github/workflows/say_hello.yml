@@ -1,0 +1,8 @@
+name: say-hello
+on: push
+jobs:
+  say:
+    runs-on: ubuntu-latest
+    steps:
+      # run – произвольная bash-команда
+      - run: make say-hello
