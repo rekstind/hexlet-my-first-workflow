@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # run – произвольная bash-команда
-      - run: make say-hello
+      - run: cd ../.. | make say-hello
